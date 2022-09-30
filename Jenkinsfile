@@ -17,7 +17,7 @@ pipeline {
 				  steps {
 				           
                             
-						   sh " chmod -R 777 /var/www/html "
+						   sh "sudo chmod -R 777 /var/www/html "
 					  sh "cp -r /mnt/index.html /var/www/html"
 
 }				  
